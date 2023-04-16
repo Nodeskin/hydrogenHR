@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-housing {
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  font-size: 18px;
+}
+
+.navBar li {
+  padding: 10px 20px;
+}
+
+.mid-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.mid-nav li {
+  margin-left: 60px;
+}
+
+.right-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.right-nav li {
+  margin-right: 10px;
+}
+
+#talkToSalesKey {
+  background-color: rgba(12, 12, 165, 0.664);
+  color: white;
+  border-radius: 5px;
+}
+
+.page1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page1Header {
+  margin: 150px 0 0;
+  font-size: 55px;
+  font-family: sans-serif;
+  color: rgba(1, 0, 5, 0.863);
+}
+
+.page1 p {
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.prices {
+  font-size: 15px;
+  padding: 5px 10px;
+  /* border: 1px solid red; */
+  cursor: pointer;
+  background-color: rgb(166, 182, 176);
+  border-radius: 25px;
+}
+
+#monthlyPrice {
+  background-color: rgb(17, 17, 78);
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+#annualPrice {
+  border: none;
+  color: rgb(33, 33, 97);
+  background-color: rgb(166, 182, 176);
+  padding: 12px 15px;
+}
+
+/* PAGE 2 */
+.plans {
+  display: flex;
+  margin: 90px 5px;
+  color: rgb(91, 101, 109);
+}
+
+.planContainer {
+  border: 1px solid rgb(91, 101, 109);
+  margin: 0 5px;
+  width: 25%;
+  height: 700px;
+  border-radius: 10px;
+  font-family: sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.planContainer h3 {
+  color: black;
+  font-size: 25px;
+}
+
+.starting-p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.planPricing {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.planPricing h1 {
+  margin: 0;
+}
+.planContainer h1 {
+  font-size: 45px;
+  color: rgb(18, 18, 175);
+}
+
+.detailsP {
+  text-align: left;
+}
+.h-line {
+  border-bottom: 2px solid rgb(233, 233, 212);
+  width: 90%;
+  margin-top: 20px;
+}
+.inclusion {
+  margin: 5px 0 10px;
+}
+
+.fa-li{
+  position:unset !important;
+  
+}
+
+.fa-check:before {
+  padding: 2px;
+  border: 1px solid blue;
+  border-radius: 50% ;
+} 
+
+.inclusion p {
+  font-weight: 600;
+  text-align: left;
+}
+
+.getButton {
+  display: flex;
+  justify-content: center;
+}
+
+.getButton button {
+  border: 1px solid rgb(83, 83, 202);
+  border-radius: 5px;
+  width: 90%;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 550;
+  color: rgb(83, 83, 202);
+  cursor: pointer;
+}
+
+/* TABLE SECTION */
+.tableContainer {
+  margin-top: 100px;
+}
+
+.tableContainer h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.tableContainer p {
+  font-size: 20px;
+}
+.tableContainer h1,
+p {
+  text-align: center;
+  color: rgb(53, 43, 43);
+}
+
+.tableContent {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.page3Table {
+  width: 97%;
+  border-collapse: collapse;
+}
+
+.tableRowHeader th {
+  text-align: left;
+  color: white;
+  padding: 30px 20px;
+  font-size: 20px;
+  background-color: rgb(59, 59, 196);
+}
+
+.tableRowHeader th:nth-child(1) {
+  border-top-left-radius: 20px;
+}
+
+.tableRowHeader th:nth-child(4) {
+  border-top-right-radius: 20px;
+}
+
+.tableRowBody td {
+  padding: 20px;
+  font-size: 18px;
+}
+
+.tableRowBody:nth-child(even) {
+  background-color: rgb(241, 239, 239);
+}
+
+.buttomRow td {
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgb(241, 239, 239);
+}
+
+.buttomRow td:nth-child(1) {
+  border-bottom-left-radius: 20px;
+}
+
+.buttomRow td:nth-child(4) {
+  border-bottom-right-radius: 20px;
+}
+
+/* FOOTER */
+.footerContainer {
+  margin-top: 200px;
+  background-color: rgb(4, 4, 43);
+}
+
+.footer {
+  padding: 20px;
+}
+
+.companyDetails {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 20px;
+}
+
+.companyDetails ul {
+  padding: 0;
+}
+
+.head {
+  list-style: none;
+  font-weight: bolder;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  color: rgb(243, 223, 223);
+}
+
+.bottom {
+  list-style: none;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: sans-serif;
+  color: rgb(56, 56, 94);
+}
+
+.socials p {
+  margin: 0;
+  color: rgb(56, 56, 94);
+}
+.socials h3 {
+  color: rgb(146, 146, 26);
+  margin: 0;
+}
+
+.f-line {
+  border-bottom: 1px solid rgb(77, 77, 50);
+  width: 100%;
+  margin: auto;
+}
+
+.footerP {
+  color: rgb(56, 56, 94);
+  font-size: 12px;
+}
