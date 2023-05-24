@@ -5,8 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HydrogenHR</title>
-    <link rel="stylesheet" href="hydroHR.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script
+    src="https://kit.fontawesome.com/5aaf404a9d.js"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://kit.fontawesome.com/a076d05399.js"
+  ></script>
   </head>
   <body>
     <div class="main-housing">
@@ -14,28 +20,54 @@
         <div class="logo">
           <img
             src="/hydrogenHR/hydroImgs/newHR.png"
-            alt="hydrologo"
-            style="
-              width: 250px;
-              height: 70px;
-              object-fit: cover;
-              margin-left: 10px;
-            "
-          />
+            alt="hydrologo"/>
         </div>
-        <div class="mid-nav">
-          <ul class="mid-nav">
-            <li>Features</li>
-            <li>Pricing</li>
-            <li>Blog</li>
-          </ul>
-        </div>
-        <div class="right-nav">
-          <ul class="right-nav">
-            <li>Login</li>
-            <li id="talkToSalesKey">Talk To Sales</li>
-        </div>
+       
+            <div class="mid-nav">
+              <ul class="mid-nav">
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+              </ul>
+            </div>
+            <div class="right-nav">
+              <ul class="right-nav">
+                <li>Login</li>
+                <li id="talkToSalesKey">Talk To Sales</li>
+              </div>
       </div>
+
+                    <!-- HAMBURGER MENU -->
+      <div class="hambug-navBar">
+        <div class="hamburger-click">
+            <div class="hamburg-logo">
+              <img
+                src="/hydrogenHR/hydroImgs/newHR.png"
+                alt="hydrologo"/>
+            </div>
+            <div class="one">
+                <div class="close-icon">
+                  <i class="fa-solid fa-xmark fa-sm" style="font-size:3.2rem;"></i>
+                </div>
+                <div class="menu-icon">
+                  <i class="fas fa-bars"></i>
+                </div>
+              </div>
+        </div>
+    
+          <div class="hamburgMid-nav">
+              <ul class="hamburgMid-nav">
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Blog</li>
+                <li>Talk To Sales</li>
+                <li>Login</li>
+              </ul>
+            </div>
+           
+      </div>
+
+
       <!-- PAGE ! -->
       <section class="page1">
        <h1 class="page1Header">
@@ -510,6 +542,7 @@
       <footer class="footer">
         <div><img src="/hydrogenHR/hydroImgs/newHR.png" style="object-fit:cover
         ;" alt="HRlogo"></div>
+        
         <div class="companyDetails">
                 <!-- COMPANY -->
             <ul>
@@ -544,5 +577,8 @@
       </footer>
     </section>
     </div>
+
+        <script src="index.js"></script>
+
   </body>
 </html>
