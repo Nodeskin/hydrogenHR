@@ -12,8 +12,8 @@
 }
 
 .logo img {
-  width: 250px;
-  height: 70px;
+  width: 300px;
+  height: 150px;
   object-fit: cover;
   margin-left: 10px;
 }
@@ -53,7 +53,7 @@
 }
 
 .page1Header {
-  margin: 150px 0 0;
+  margin: 40px 0 0;
   font-size: 55px;
   font-family: sans-serif;
   color: rgba(1, 0, 5, 0.863);
@@ -251,7 +251,12 @@ p {
 }
 
 .footer {
-  padding: 20px;
+  padding: 20px 10px;
+}
+
+.footer-logo img{
+  width: 300px;
+  height: 70px;
 }
 
 .companyDetails {
@@ -303,6 +308,10 @@ p {
 
 /* @mediaQuerries DESKTOP */
 @media screen and (min-width: 550px) {
+  * {
+    box-sizing: border-box;
+  }
+
 .hambug-navBar{
   display: none;
 }
@@ -320,6 +329,11 @@ p {
   .hamburger-click{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px;
+    background-color: #fdfafa;
+    margin: 0;
+    position: relative;
   }
 
   .hamburg-logo img {
@@ -331,22 +345,22 @@ p {
 
   .close-icon {
     display: none;
-    color: rgb(236, 225, 225);
+    color: rgb(199, 189, 236);
     justify-content: flex-end;
     padding: 30px 10px;
-  
-  }
+    font-size:2.5rem;
+    }
 
   .menu-icon {
     display: flex;
     justify-content: flex-end;
-    font-size: 50px;
+    font-size: 33px;
     padding: 10px;
     color: rgb(65, 31, 31);
   }
 
   .hamburgMid-nav{
-    display: flex;
+    display: none;
     flex-direction: column;
   }
  
@@ -369,7 +383,7 @@ p {
   }
 
   .page1Header{
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
 
@@ -387,13 +401,47 @@ p {
 
   }
 
+  .planContainer h1{
+    margin: 0;
+  }
+  
+  .page3Table {
+    width: 100%;
+  }
+
+  .tableRowHeader th {
+    padding: 20px 5px;
+    font-size: 10px;
+  }
+
+  
+  .tableRowBody td:nth-child(1) {
+    padding: 12px;
+    font-size: 16px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+  }
+
+  .tableRowBody td:last-child{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  .footer{
+    padding: 5px;
+  }
+
   .footer-logo img{
-    width: 60%;
+    width: 55%;
+    height: 70px;
+    
   }
 
   .companyDetails{
     display: flex;
     flex-direction: column;
+    margin-top: 20px;
+    padding-left: 5px;
   }
 
   .bottom{
@@ -410,6 +458,53 @@ p {
 /* MediaQuerry IPAD */
 
 @media screen and (max-width: 850px) and (min-width: 560px){
+
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .logo img {
+    width: 260px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 10px;
+  }
+  
+  .navBar li {
+    padding: 10px 5px;
+  }
+  
+  .mid-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mid-nav li {
+    margin-left: 60px;
+  }
+  
+  .right-nav ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .right-nav li {
+    padding: 5px 15px;
+  }
+  
+  #talkToSalesKey {
+    background-color: rgba(12, 12, 165, 0.664);
+    color: white;
+    border-radius: 5px;
+  }
+
 .navBar{
   font-size: 18px;
 }
@@ -425,7 +520,7 @@ p {
   }
 
   .page1Header{
-    margin-top: 80px;
+    margin-top: 20px;
   }
 
   .plans{
@@ -444,4 +539,24 @@ p {
 
 .planPricing p{
   font-size: 20px;}
+
+  .footer{
+    padding: 5px;
+    width: 100%;
+    height: 65vh;
+  }
+
+  .footer-logo img{
+    width: 50%;
+    height: 50px;
+    object-fit: cover;
+    
+  }
+
+  .companyDetails{
+    display: flex;
+    margin-top: 50px;
+    padding: 10px;
+  }
+
 }
